@@ -96,11 +96,11 @@ def svmTrain():
         tFogClass.append(0)
         tFogList.append(new_list)
         
-    svmThunder = svm.SVC()
+    svmThunder = svm.SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf', max_iter=-1, probability=False, random_state=None, shrinking=True, tol=0.001, verbose=False)
     
     svmThunder.fit(tList,tClass)
     
-    svmFog = svm.SVC()
+    svmFog = svm.SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf', max_iter=-1, probability=False, random_state=None, shrinking=True, tol=0.001, verbose=False)
     
     svmFog.fit(tFogList,tFogClass)
     
