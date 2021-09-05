@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="website" content="frontend">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>Weather Website</title>
+        <link rel="stylesheet" href="main.css"/>
+    </head>
+    <body>
+        <div class="app-wrap">
+            <nav>
+                <label class="logo">SEPA6</label>
+                <ul>
+                    <li><a href="index.html">Status</a></li>
+                    <li><a href="prediction.html">Fog And HAze</a></li>
+                </ul>
+            </nav>
+           <header>
+               <h1>FOG AND HAZE PREDICTION</h1>
+            </header>
+            <main>
+             <div id="container">
+                 <form>
+                     <select id="select">
+                         <option value="Melbourne, au">Melbourne</option>
+                         <option value="Sydney">Sydney</option>
+                         <option value="Canberra">Canberra</option>
+                         <option value="Darwin">Darwin</option>
+                         <option value="Brisbane">Brisbane</option>
+                         <option value="Adelaide">Adelaide</option>
+                         <option value="Hobart">Hobart</option>
+                         <option value="Perth">Perth</option>
+                     </select>
+                     <button id="btn">Get the Selected city</button>
+                 </form>
+                 </div>
+ 
+                <section class="location">
+                    <div class="city">Melbourne, AU</div>
+                    <div class="date">Saturnday 29 August 2021</div>
+                </section>
+               <div class= "prediction">
+                <table>
+                    <theadh>
+                    <tr>
+                      <th>FOG PREDICTION</th>
+                      <th>HAZE PREDICTION</th>
+                    </tr>
+                </theadh>
+                <tbody>
+                    <tr>
+                      <td>YES</td>
+                      <td>NO</td>
+                    </tr>
+                </tbody>
+                  </table>
+               </div>
+           </main>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

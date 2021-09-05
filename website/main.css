@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav {
+    background: rgba(0,0,0,0.5);
+    height: 80px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    transition: 1s;
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover{
+    background-color: indianred;
+    transition: .5s;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+.app-wrap{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.6));
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 20px;
+}
+
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.location .city {
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow:  2px 3px rgba(0,0,0,0.7);
+}
+.location .date {
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-shadow:  2px 2px rgba(0,0,0,0.7);
+}
+
+.current .temp {
+    color:rgb(255, 220, 220);
+    font-size: 120px;
+    font-weight: 900;
+    text-shadow:  2px 8px rgba(0,0,0,0.7);
+}
+.current .weather {
+    color: rgb(255, 220, 220);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 10px 0px;
+    text-shadow:  2px 3px rgba(0,0,0,0.7);
+}
+.current .humidity {
+    color:rgb(255, 220, 220);
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow:  2px 2px rgba(0,0,0,0.7);
+}
+h1 {
+    color:indianred;
+    font-weight: 800;
+    font-size: 45px;
+    text-shadow:  3px 5px rgba(0,0,0,0.7);
+}
+.prediction{
+    margin: 30px 0px;
+}
+table {
+    background-color: rgba(0,0,1,0.2);
+    color: #ffffff;
+    text-align: center;
+    border-radius:10px ;
+}
+th,td {
+    padding: 12px 15px;
+    font-size: 30px ;
+    text-shadow:  2px 3px rgba(0,0,0,0.7);
+}
+td {
+    color: khaki;
+    font-weight: 900;
+}
+
+select {
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    float: center;
+    border-radius: 5px;
+    font-size: 25px;
+    margin: 5px;
+    color:whitesmoke;
+    padding: 5px;
+    cursor: pointer;
+}
+option {
+    background: rgba(0,0,0,0.5);
+}
+#btn{
+    padding: 3px;
+    font-weight: bold;
+    margin:0px 0px 10px 0px;
+    cursor: pointer;
+
+    
+}
