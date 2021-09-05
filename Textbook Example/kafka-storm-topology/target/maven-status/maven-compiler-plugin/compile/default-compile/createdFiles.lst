@@ -1,0 +1,3 @@
+com\stormadvance\kafka\WordBolt.class
+com\stormadvance\kafka\KafkaTopology.class
+com\stormadvance\kafka\SentenceBolt.class
